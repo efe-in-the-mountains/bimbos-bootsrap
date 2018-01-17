@@ -1,0 +1,216 @@
+body {
+  /*font-family: 'Gravitas One', cursive;*/
+  font-family: 'Eczar', serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("../img/bricks.jpg");
+  min-height: 84rem;
+}
+
+.bgimg-2 {
+  background-image: url("../img/pizza.jpg");
+  min-height: 34rem;
+}
+
+.bgimg-3 {
+  background-image: url("../img/building1-bw.jpg");
+  min-height: 50rem;
+}
+
+.bgimg-4 {
+  background-image: url("../img/building1.JPG");
+  min-height: 30rem;
+}
+
+.brown-text {
+  color: #592C2D;
+  padding: 3rem 0;
+}
+
+.light-blue-text {
+  color: #1797E5;
+}
+
+.green-text {
+  color: #31A550;
+}
+.container {
+  margin: 0 auto;
+}
+
+.img-responsive {
+  opacity: 0.75;
+}
+
+  /*colors  brown =       #592C2D
+            light-blue =  #2D7198
+            green =       #31A550
+            dark blue =   #1E3B4C  */
+
+.img-trans img:hover {
+  opacity: 1;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+
+}
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+
+/* navbar */
+
+.navbar .navbar-nav>li>a {
+  color: #31A550;
+  text-decoration: none;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.navbar .navbar-nav>li {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+/* 1stbgImg - bricks */
+
+.caption-1 h1 {
+  font-family: 'Eczar', serif;
+  font-size: 20rem;
+  font-weight: bold;
+  color: white;
+  background-color: #31A550;
+  top: 35rem;
+  padding: 4rem 0 0 3rem;
+
+}
+
+
+/* history */
+
+#history {
+  height: auto;
+  padding: 5rem 2rem;
+  background-color: white;
+}
+
+#history h1 {
+  font-family: 'Eczar', serif;
+  font-size: 8rem;
+}
+
+.history-top p {
+  font-size: 2rem;
+}
+
+/* generations */
+
+#generations {
+  padding: 4rem 1rem;
+}
+
+.generation {
+  margin: 0 auto;
+  background-color: #31A550;
+  padding: 3rem 1rem;
+  border-radius: 2rem;
+  border: 2.5rem dashed white;
+}
+
+.generation h2 {
+  font-weight: bold;
+  padding-top: 3rem;
+  color: white;
+}
+
+.generation h3 {
+  color: white;
+}
+
+
+
+/* 2nd bgImg - dough*/
+
+.caption-2 h1 {
+  background-color: transparent;
+  font-family: 'Eczar', serif;
+  font-size: 12rem;
+  color: white;
+  padding-top: 6rem;
+}
+
+
+/* location */
+#address-map {
+  padding: 6rem 0;
+}
+.loc-address {
+  height: auto;
+  background-color: #1E3B4C;
+  padding-top: 3rem;
+}
+
+.loc-address h2 {
+  color: #2D7198;
+}
+
+.google-maps {
+  padding: 3rem 0;
+}
+/*contact*/
+.caption-3 h1 {
+  background-color: #2D7198;
+  font-family: 'Eczar', serif;
+  font-size: 14rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 2rem;
+}
+
+#grad1 {
+    height: auto; /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */
+    width: 45%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(255,0,0,0)));
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(255,0,0,0)); /* Standard syntax (must be last) */
+}
+
+#grad2 {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(255,0,0,0)));
+  background: linear-gradient(to right, rgba(0,0,0,1), rgba(255,0,0,0));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(89,44,45,1)), to(rgba(89,44,45,0)));
+  background: linear-gradient(to right, rgba(89,44,45,1), rgba(89,44,45,0));
+}
+.contact {
+  margin-top: 4rem;
+}
+
+.contact h3 {
+  font-size: 3.5rem;
+  color: white;
+
+}
+
+/* #final-divider */
+
+.copyright {
+  font-size: 6rem;
+  color: white;
+}
