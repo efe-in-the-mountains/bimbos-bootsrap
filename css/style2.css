@@ -1,0 +1,47 @@
+html {    
+    font-family: 'Eczar', serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../img/bricks.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.hero-bg {
+    background-color: rgba(99, 188, 158, 0.95);
+    color: whitesmoke;
+}
+
+.lead {
+    color: #A14344;
+}
+
+.bgImg0 {
+    background-image: url("../img/booths.JPG");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40vh;
+} 
+
+#location {
+    background-color: #A14344;
+    color: #63BC9E;
+}
+
+.facebook-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link:hover {
+    color: steelblue;
+}
